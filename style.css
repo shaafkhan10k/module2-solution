@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+.MeDiv {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+@media (min-width: 992px) {
+    .MeDiv {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .MeDiv{
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+    }
+     .Sushi {
+        clear: both;
+        width: 100%;
+      
+    }
+}
+
+
+@media (max-width: 767px) {
+     .MeDiv {
+        width: 100%;
+    }
+}
